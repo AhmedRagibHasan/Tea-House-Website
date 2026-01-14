@@ -17,9 +17,9 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <!-- CSS FILE -->
+    <!-- CSS FILE -->
 
-        <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/style.css">
 
 
 
@@ -32,8 +32,9 @@
     <!-- Banner Section  -->
 
     <!-- Banner left section  -->
-    <div class="parent_div flex flex-col md:flex-row justify-between border-2 border-red-500 min-h-[200px] mx-auto max-w-[1250px]">
-        <div class="left_div border-2 border-green-500">
+    <div
+        class="parent_div flex flex-col md:flex-row justify-between  min-h-[200px] mx-auto max-w-[1250px]">
+        <div class="left_div ">
             <h1 class="text-[80px] font-bold">It's good
                 <br>
                 tea time at The
@@ -45,23 +46,62 @@
                 Satisfaction To Your
                 Taste Buds.
             </p>
-            <button class="w-[200px] text-xl text-white h-[64px] bg-gradient-to-r from-[#ff0000] to-[#ff8938] rounded-lg"><span>Explore More</span> <span><i class="fa-solid fa-arrow-right -rotate-45"></i></span></button>
+            <button
+                class="w-[200px] text-xl text-white h-[64px] bg-gradient-to-r from-[#ff0000] to-[#ff8938] rounded-lg"><span>Explore
+                    More</span> <span><i class="fa-solid fa-arrow-right -rotate-45"></i></span></button>
 
         </div>
 
         <!-- banner right section -->
-        <div class="right_div relative border-2 border-blue-500">
+        <div class="right_div relative ">
             <img src="images/banner.png" class="relative top-[100px]" alt="">
-            <div class="flex items-center w-[255px] h-[100px] rounded-lg shadow-md absolute bg-white left-[100px]" >
+            <div class="flex items-center w-[255px] h-[100px] rounded-lg shadow-md absolute bg-white left-[100px]">
                 <span class="text-4xl"><i class="fa-solid fa-star"></i></span>
                 <div class="ml-4">
                     <p class="text-4xl font-bold">5.00</p>
-                    <p >Trust Pilot Ratings</p>
+                    <p>Trust Pilot Ratings</p>
                 </div>
             </div>
 
         </div>
     </div>
+
+    <!-- feature section starts here  -->
+
+    <section class="min-h-[200px] max-w-[1250px] mx-auto mt-[100px]">
+        <h1 class="text-4xl text-center">Our Featured Products</h1>
+        <p class="text-center my-10">There are many variations of passages of Lorem Ipsum available, but the majority have
+            suffered alteration in some form, by injected humour, or randomised words which don't look even slightly
+            believable. </p>
+        <div class="featured_parent grid grid-cols-1 md:grid-cols-4 min-h-[200px]  gap-4">
+            <div
+                class="featured_card bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400] w-[250px] min-h-[300px]  text-center p-4 rounded-lg">
+                <img src="images/tea-1.png" class="mx-auto block" alt="">
+                <h1 class="text-2xl font-bold my-2">Milk Tea</h1>
+                <p class="text-[#777777] text-sm font-semibold">Creamer could be replaced by fresh milk</p>
+            </div>
+            <div
+                class="featured_card bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400] w-[250px] min-h-[300px]  text-center p-4 rounded-lg">
+                <img src="images/tea-2.png" class="mx-auto block" alt="">
+                <h1 class="text-2xl font-bold my-2">Black Tea</h1>
+                <p class="text-[#777777] text-sm font-semibold">Creamer could be replaced by fresh milk</p>
+            </div>
+            <div
+                class="featured_card bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400] w-[250px] min-h-[300px]  text-center p-4 rounded-lg">
+                <img src="images/tea-3.png" class="mx-auto block" alt="">
+                <h1 class="text-2xl font-bold my-2">Lemon Tea</h1>
+                <p class="text-[#777777] text-sm font-semibold">Creamer could be replaced by fresh milk</p>
+            </div>
+            <div
+                class="featured_card bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400] w-[250px] min-h-[300px]  text-center p-4 rounded-lg">
+                <img src="images/tea-4.png" class="mx-auto block" alt="">
+                <h1 class="text-2xl font-bold my-2">Green Tea</h1>
+                <p class="text-[#777777] text-sm font-semibold">Creamer could be replaced by fresh milk</p>
+            </div>
+        </div>
+    </section>
+
+
 
 
 </body>
